@@ -1,0 +1,13 @@
+ #  fugitive
+ ## git bindings for vim
+ ####################################################################
+
+info:
+	repository:	https://github.com/tpope/vim-fugitive
+	docfile:	https://raw.github.com/tpope/vim-fugitive/master/doc/fugitive.txt
+
+functions:
+  - Gstatus: Brings up an interactive menu for showing the current status of your working tree.
+  - Gcommit: Saves working tree, calls Gcommit if working tree is clean.
+  - Glog:	 Loads all previous revisions of the current file into the quickfix list.
+  - Gdiff:	 Perform a |vimdiff| against the current file in the given revision.
